@@ -7,18 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		B43B054728148A0400499664 /* art.png in Resources */ = {isa = PBXBuildFile; fileRef = B43B054628148A0300499664 /* art.png */; };
+		B43B054928148A3000499664 /* MusicPlayerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B43B054828148A3000499664 /* MusicPlayerView.swift */; };
 		B4A2EFF82812C99100A4B3CB /* IntroNeumorphicDesignApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2EFF72812C99100A4B3CB /* IntroNeumorphicDesignApp.swift */; };
 		B4A2EFFA2812C99100A4B3CB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2EFF92812C99100A4B3CB /* ContentView.swift */; };
 		B4A2EFFC2812C99300A4B3CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A2EFFB2812C99300A4B3CB /* Assets.xcassets */; };
 		B4A2EFFF2812C99300A4B3CB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B4A2EFFE2812C99300A4B3CB /* Preview Assets.xcassets */; };
+		B4A2F0062812CAC100A4B3CB /* NeumorphicImageButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4A2F0052812CAC100A4B3CB /* NeumorphicImageButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		B43B054628148A0300499664 /* art.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = art.png; sourceTree = "<group>"; };
+		B43B054828148A3000499664 /* MusicPlayerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicPlayerView.swift; sourceTree = "<group>"; };
 		B4A2EFF42812C99100A4B3CB /* IntroNeumorphicDesign.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IntroNeumorphicDesign.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B4A2EFF72812C99100A4B3CB /* IntroNeumorphicDesignApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntroNeumorphicDesignApp.swift; sourceTree = "<group>"; };
 		B4A2EFF92812C99100A4B3CB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B4A2EFFB2812C99300A4B3CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B4A2EFFE2812C99300A4B3CB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B4A2F0052812CAC100A4B3CB /* NeumorphicImageButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NeumorphicImageButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,7 +60,10 @@
 				B4A2EFF72812C99100A4B3CB /* IntroNeumorphicDesignApp.swift */,
 				B4A2EFF92812C99100A4B3CB /* ContentView.swift */,
 				B4A2EFFB2812C99300A4B3CB /* Assets.xcassets */,
+				B43B054628148A0300499664 /* art.png */,
 				B4A2EFFD2812C99300A4B3CB /* Preview Content */,
+				B4A2F0052812CAC100A4B3CB /* NeumorphicImageButton.swift */,
+				B43B054828148A3000499664 /* MusicPlayerView.swift */,
 			);
 			path = IntroNeumorphicDesign;
 			sourceTree = "<group>";
@@ -125,6 +134,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B43B054728148A0400499664 /* art.png in Resources */,
 				B4A2EFFF2812C99300A4B3CB /* Preview Assets.xcassets in Resources */,
 				B4A2EFFC2812C99300A4B3CB /* Assets.xcassets in Resources */,
 			);
@@ -138,6 +148,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				B4A2EFFA2812C99100A4B3CB /* ContentView.swift in Sources */,
+				B43B054928148A3000499664 /* MusicPlayerView.swift in Sources */,
+				B4A2F0062812CAC100A4B3CB /* NeumorphicImageButton.swift in Sources */,
 				B4A2EFF82812C99100A4B3CB /* IntroNeumorphicDesignApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
